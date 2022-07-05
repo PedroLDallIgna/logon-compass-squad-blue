@@ -13,8 +13,8 @@
 </template>
 
 <script>
-import ClockComponent from '../ClockComponent/ClockComponent.vue';
-import WeatherComponent from '../WeatherComponent/WeatherComponent.vue';
+import ClockComponent from '@/components/ClockComponent/ClockComponent.vue';
+import WeatherComponent from '@/components/WeatherComponent/WeatherComponent.vue';
 export default {
     name: "HeaderComponent",
     components: {

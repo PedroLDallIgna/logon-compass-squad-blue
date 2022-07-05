@@ -28,6 +28,6 @@ export default {
 }
 </script>
 
-<style lang="sass" scoped>
-  @import '@/components/Title/TitleLogin.scss'
+<style lang="scss" scoped>
+@import './titleLogin.scss';
 </style>

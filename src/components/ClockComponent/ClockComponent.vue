@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import TextComponent from '../TextComponent/TextComponent.vue'
+import TextComponent from '@/components/TextComponent/TextComponent.vue'
 
 export default {
     name: "ClockComponent",

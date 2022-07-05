@@ -16,8 +16,8 @@ export default {
         },
 
         clickButton: {
-            type: String,
-            default: ""
+            type: Function,
+            default: () => {}
         },
     },
 };

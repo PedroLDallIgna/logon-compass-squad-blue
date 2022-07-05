@@ -10,6 +10,6 @@ export default {
 }
 </script>
 
-<style lang="sass" scoped>
-@import '@/components/Error 404/Error404.scss'
+<style lang="scss" scoped>
+@import './Error404.scss';
 </style>

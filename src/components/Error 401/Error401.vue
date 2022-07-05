@@ -10,8 +10,8 @@
 </template>
 
 <script>
-import TitleLogin from "@/components/Title/TitleLogin.vue";
-import TextComponent from "../TextComponent/TextComponent.vue";
+import TitleLogin from "@/components/Title/titleLogin.vue";
+import TextComponent from "@/components/TextComponent/TextComponent.vue";
 
 export default {
   name: "errorPage401",
@@ -39,6 +39,6 @@ export default {
 };
 </script>
 
-<style lang="sass" scoped>
-@import '@/components/Error 401/Error401.scss'
+<style lang="scss" scoped>
+@import './Error401.scss';
 </style>

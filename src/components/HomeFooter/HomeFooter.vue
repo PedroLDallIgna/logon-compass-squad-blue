@@ -16,7 +16,7 @@
 <script>
 import TextComponent from '@/components/TextComponent/TextComponent.vue';
 import ButtonComponent from '@/components/Button/ButtonComponent.vue';
-import TimerComponent from '../TimerComponent/TimerComponent.vue';
+import TimerComponent from '@/components/TimerComponent/TimerComponent.vue';
 export default {
     name: "HomeFooter",
     components: {

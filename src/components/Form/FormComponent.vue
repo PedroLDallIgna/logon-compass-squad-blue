@@ -19,10 +19,10 @@
 </template>
 
 <script>
-import InputComponent from "../inputComponent/InputComponent.vue";
-import TitleLogin from "@/components/Title/TitleLogin.vue"
+import InputComponent from "@/components/inputComponent/InputComponent.vue";
+import TitleLogin from "@/components/Title/titleLogin.vue";
 import TextComponent from "@/components/TextComponent/TextComponent.vue";
-import ButtonComponent from '../Button/ButtonComponent.vue';
+import ButtonComponent from '@/components/Button/ButtonComponent.vue';
 import { mapActions } from 'vuex';
 export default {
   
@@ -51,5 +51,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import '@/components/Form/FormComponent.scss';
+@import './FormComponent.scss';
 </style>
